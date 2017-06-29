@@ -2,12 +2,6 @@
 
 Optimizuoti kurjerių darbą, apskaičiuojant trumpiausią maršrutą prekių išvežiojimui.
 
-Užduoties atlikimas ir rezultatų pateikimas:
-
-1. Užsiregistruokite http://server1.e-lab.lt:8888.
-2. Susikurkite fork'ą užduočiai http://server1.e-lab.lt:8888/giedrius/uzduotis.git ir suteikite prieigą prie jos grupei "administrators".
-3. Atlikę užduotį, sukelkite viską GIT repositorijoje (savo fork'e) ir informuokite el. paštu.
-
 ## I dalis (backend)
 
 Naudojant PHP sukurti REST API webservisą. Webservisas turi priimti HTTP_POST metodu siunčiamus duomenis ir atlikti 2 užduotis:
@@ -25,3 +19,10 @@ Naudojant Bootstrap karkasą, sukurti interfeisą, kuriame:
 * Paspaudus bet kurią iš žemėlapyje atvaizduojamų vietovių, atvaizduoti trumpiausią kelionės maršrutą aplankant visas kitas vietoves, kelionę pradedant ir baigiant tame taške. Kartu pateikti viso maršruto atstumą ir trukmę.
 
 Pageidaujama, kad užduoties antros dalies rezultatas būtų pilnai įgyvendintas naudojant tik HTML/CSS/JS kodą, nekuriant papildomo serverinės dalies kodo (PHP).
+
+## Užduoties atlikimas ir rezultatų pateikimas:
+
+1. Užsiregistruokite http://server1.e-lab.lt:8888.
+2. Susikurkite fork'ą užduočiai http://server1.e-lab.lt:8888/giedrius/uzduotis.git ir suteikite prieigą prie jos grupei "administrators".
+3. Atlikę užduotį, sukelkite viską GIT repositorijoje ir atsiųskite savo Fork'o nuorodą el. paštu.
+
