@@ -23,6 +23,6 @@ Pageidaujama, kad užduoties antros dalies rezultatas būtų pilnai įgyvendinta
 ## Užduoties atlikimas ir rezultatų pateikimas:
 
 1. Užsiregistruokite http://server1.e-lab.lt:8888.
-2. Susikurkite fork'ą užduočiai http://server1.e-lab.lt:8888/giedrius/uzduotis.git ir suteikite prieigą prie jos grupei "administrators".
-3. Atlikę užduotį, sukelkite viską GIT repositorijoje ir atsiųskite savo Fork'o nuorodą el. paštu.
+2. Susikurkite fork'ą užduočiai http://server1.e-lab.lt:8888/giedrius/uzduotis.git, nustatykite "private" prieigos teises (Settings -> General -> Sharing & Permissions). Suteikite prieigą projekto grupei "administrators" (Settings -> Members -> Share with group).
+3. Atlikę užduotį, sukelkite kodą į GIT repositoriją ir atsiųskite projekto (fork'o) nuorodą el. paštu.
 
