@@ -20,9 +20,10 @@ Naudojant Bootstrap karkasą, sukurti interfeisą, kuriame:
 
 Pageidaujama, kad užduoties antros dalies rezultatas būtų pilnai įgyvendintas naudojant tik HTML/CSS/JS kodą, nekuriant papildomo serverinės dalies kodo (PHP).
 
-## Užduoties atlikimas ir rezultatų pateikimas:
+## Užduoties atlikimas ir rezultatų pateikimas
 
 1. Užsiregistruokite http://server1.e-lab.lt:8888.
 2. Susikurkite fork'ą užduočiai http://server1.e-lab.lt:8888/giedrius/uzduotis.git, nustatykite "private" prieigos teises (Settings -> General -> Sharing & Permissions). Suteikite prieigą projekto grupei "administrators" (Settings -> Members -> Share with group).
-3. Atlikę užduotį, sukelkite kodą į GIT repositoriją ir atsiųskite projekto (fork'o) nuorodą el. paštu.
+3. Atlikę užduotį, sukelkite kodą į GIT repositoriją ir atsiųskite projekto (fork'o) nuorodą el. paštu [karjera@e-lab.lt](mailto:karjera@e-lab.lt).
+4. Kilus klausimams, rašykite [karjera@e-lab.lt](mailto:karjera@e-lab.lt).
 
