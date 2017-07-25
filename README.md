@@ -1,29 +1,51 @@
-# Užduotis
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-Optimizuoti kurjerių darbą, apskaičiuojant trumpiausią maršrutą prekių išvežiojimui.
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
 
-## I dalis (backend)
+## About Laravel
 
-Naudojant PHP sukurti REST API webservisą. Webservisas turi priimti HTTP_POST metodu siunčiamus duomenis ir atlikti 2 užduotis:
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
-* Pagal trumpus vietovių pavadinimus rasti detalią informaciją - pilnus pavadinimus bei koordinates. Duomenys priimami text/csv formatu. Rezultatas - JSON struktūra.
-* Apskaičiuoti optimalų maršrutą, kokia tvarka aplankyti visas vietoves ir grįžti į pradinį kelionės tašką. Įvesties duomenys ir rezultatas - JSON duomenų struktūros.
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Įvesties ir rezultato pavyzdiniai failai pateikti /io_samples/ kataloge. Kokią užduotį atlikti, ir kokį charset'ą naudoti dekoduojant duomenis, webservisas turėtų suprasti pagal užklausos "Content-type" header'ius (text/csv - vietovių info, application/json - kelio radimas).
+Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
 
-## II dalis (frontend)
+## Learning Laravel
 
-Naudojant Bootstrap karkasą, sukurti interfeisą, kuriame:
+Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
 
-* Iš CSV failo užkrauti siuntų sąrašą (formatas ir duomenų pavyzdys - /io_samples/input1.csv) ir Boostrap Modal lange parodyti Google Maps žemėlapį su faile paminėtomis vietovės. Vietovių informacija turėtų būti gaunama kreipiantis į I dalyje sukurtą API.
-* Paspaudus bet kurią iš žemėlapyje atvaizduojamų vietovių, atvaizduoti trumpiausią kelionės maršrutą aplankant visas kitas vietoves, kelionę pradedant ir baigiant tame taške. Kartu pateikti viso maršruto atstumą ir trukmę.
+If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 
-Pageidaujama, kad užduoties antros dalies rezultatas būtų pilnai įgyvendintas naudojant tik HTML/CSS/JS kodą, nekuriant papildomo serverinės dalies kodo (PHP).
+## Laravel Sponsors
 
-## Užduoties atlikimas ir rezultatų pateikimas
+We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
 
-1. Užsiregistruokite http://server1.e-lab.lt:8888.
-2. Susikurkite fork'ą užduočiai http://server1.e-lab.lt:8888/giedrius/uzduotis.git, nustatykite "private" prieigos teises (Settings -> General -> Sharing & Permissions). Suteikite prieigą projekto grupei "administrators" (Settings -> Members -> Share with group).
-3. Atlikę užduotį, sukelkite kodą į GIT repositoriją ir atsiųskite projekto (fork'o) nuorodą el. paštu [karjera@e-lab.lt](mailto:karjera@e-lab.lt).
-4. Kilus klausimams, rašykite [karjera@e-lab.lt](mailto:karjera@e-lab.lt).
+- **[Vehikl](http://vehikl.com)**
+- **[Tighten Co.](https://tighten.co)**
+- **[British Software Development](https://www.britishsoftware.co)**
+- **[Styde](https://styde.net)**
+- [Fragrantica](https://www.fragrantica.com)
+- [SOFTonSOFA](https://softonsofa.com/)
 
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
